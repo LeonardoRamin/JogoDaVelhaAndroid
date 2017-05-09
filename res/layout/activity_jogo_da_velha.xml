@@ -1,0 +1,296 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayoutP"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jogodavelha.JogoDaVelhaActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="75dp" >
+
+            <ImageButton
+                android:id="@+id/circulo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/circulo" />
+
+            <ImageButton
+                android:id="@+id/x1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/x" />
+
+            <ImageButton
+                android:id="@+id/vazio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="mudar"
+                android:src="@drawable/vazio"
+                android:tag="0" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="75dp" >
+
+            <ImageButton
+                android:id="@+id/circulo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/circulo" />
+
+            <ImageButton
+                android:id="@+id/x2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/x" />
+
+            <ImageButton
+                android:id="@+id/vazio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="mudar"
+                android:src="@drawable/vazio"
+                android:tag="1" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="75dp" >
+
+            <ImageButton
+                android:id="@+id/circulo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/circulo" />
+
+            <ImageButton
+                android:id="@+id/x3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/x" />
+
+            <ImageButton
+                android:id="@+id/vazio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="mudar"
+                android:src="@drawable/vazio"
+                android:tag="2" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="75dp" >
+
+            <ImageButton
+                android:id="@+id/circulo4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/circulo" />
+
+            <ImageButton
+                android:id="@+id/x4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/x" />
+
+            <ImageButton
+                android:id="@+id/vazio4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="mudar"
+                android:src="@drawable/vazio"
+                android:tag="3" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="75dp" >
+
+            <ImageButton
+                android:id="@+id/circulo5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/circulo" />
+
+            <ImageButton
+                android:id="@+id/x5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/x" />
+
+            <ImageButton
+                android:id="@+id/vazio5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="mudar"
+                android:src="@drawable/vazio"
+                android:tag="4" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="75dp" >
+
+            <ImageButton
+                android:id="@+id/circulo6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/circulo" />
+
+            <ImageButton
+                android:id="@+id/x6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/x" />
+
+            <ImageButton
+                android:id="@+id/vazio6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="mudar"
+                android:src="@drawable/vazio"
+                android:tag="5" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="75dp" >
+
+            <ImageButton
+                android:id="@+id/circulo7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/circulo" />
+
+            <ImageButton
+                android:id="@+id/x7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/x" />
+
+            <ImageButton
+                android:id="@+id/vazio7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="mudar"
+                android:src="@drawable/vazio"
+                android:tag="6" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="75dp" >
+
+            <ImageButton
+                android:id="@+id/circulo8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/circulo" />
+
+            <ImageButton
+                android:id="@+id/x8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/x" />
+
+            <ImageButton
+                android:id="@+id/vazio8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="mudar"
+                android:src="@drawable/vazio"
+                android:tag="7" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="75dp" >
+
+            <ImageButton
+                android:id="@+id/circulo9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/circulo" />
+
+            <ImageButton
+                android:id="@+id/x9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/x" />
+
+            <ImageButton
+                android:id="@+id/vazio9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="mudar"
+                android:src="@drawable/vazio"
+                android:tag="8" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="20dp"
+        android:onClick="play"
+        android:text="Limpar" />
+
+    <TextView
+        android:id="@+id/textViewVitoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:text="Vitórias"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewJ1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jogador 1: 0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewJogador2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jogador 2: 0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewEmpate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Empates: 0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
